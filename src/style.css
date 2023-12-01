@@ -51,7 +51,7 @@ body{
 }
 
 .content-body{
-  min-width: 80%;
+  max-width: 80%;
   border: 1px solid var(--secondary-color);
   margin-top: -1px;
   border-collapse: collapse;
@@ -69,3 +69,41 @@ body{
   text-align: center;
   margin: 10px 0;
 }
+
+.content-card-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.content-card {
+  display: flex;
+  margin: 10px 20px;
+  border: 1px solid var(--secondary-color);
+  gap: 10px;
+  max-width: 90%;
+}
+
+.content-card-left{
+  flex: 1;
+  padding: 10px;
+}
+
+.home-card{
+  text-align: center;
+}
+
+.content-card-right {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
