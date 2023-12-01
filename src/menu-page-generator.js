@@ -23,18 +23,18 @@ function MenuPage (){
 
 function createMenuCard(foodDesc, foodPrice){
   const menuCard = createContentCard();
-  menuCard.cardLeftSide.classList.add('menu-card');
+  menuCard.card.classList.add('menu-card');
   
-  const food = document.createElement('span');
-  food.classList.add('card-food');
-  food.innerText = foodDesc;
+  const foodElement = document.createElement('span');
+  foodElement.classList.add('menu-card-food');
+  foodElement.innerText = foodDesc;
   
-  const price = document.createElement('span');
-  price.classList.add('card-price');
-  price.innerText = '$' + foodPrice;
+  const priceElement = document.createElement('span');
+  priceElement.classList.add('menu-card-price');
+  priceElement.innerText = '$' + foodPrice;
   
-  menuCard.cardLeftSide.appendChild(food);
-  menuCard.cardLeftSide.appendChild(price);
+  menuCard.cardLeftSide.appendChild(foodElement);
+  menuCard.cardLeftSide.appendChild(priceElement);
   menuCard.cardRightSide.innerText = 'Placeholder Food Image';
   
   return menuCard.cardWrapper;

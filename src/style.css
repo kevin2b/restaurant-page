@@ -15,6 +15,7 @@
 
 body{
   min-width: 1000px;
+  overflow-y: scroll;
 }
 
 
@@ -83,7 +84,7 @@ body{
   padding: 10px;
 }
 
-.home-card{
+.home-card > .content-card-left{
   text-align: center;
 }
 
@@ -96,8 +97,12 @@ body{
   text-align: center;
 }
 
-.card-price{
+.menu-card-price{
   float: right;
+}
+
+.contact-card > .content-card-left > div{
+  margin-top: 0.5rem;
 }
 
 
