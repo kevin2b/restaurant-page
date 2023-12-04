@@ -34,7 +34,10 @@ function createContentCard() {
   card.appendChild(cardLeftSide);
   card.appendChild(cardRightSide);
   return {
-    cardWrapper, card, cardLeftSide, cardRightSide,
+    cardWrapper,
+    card,
+    cardLeftSide,
+    cardRightSide,
   };
 }
 

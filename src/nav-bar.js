@@ -29,7 +29,10 @@ function NavBar() {
   }
 
   return {
-    domBar, createNavElement, addNavElement, switchSelected,
+    domBar,
+    createNavElement,
+    addNavElement,
+    switchSelected,
   };
 }
 

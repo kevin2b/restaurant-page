@@ -11,7 +11,9 @@ function MenuPage() {
   contentBody.appendChild(subTitle);
 
   contentBody.appendChild(createMenuCard('Food Item A', 10.99));
-  contentBody.appendChild(createMenuCard('Food Item B - Special Edition', 1092.99));
+  contentBody.appendChild(
+    createMenuCard('Food Item B - Special Edition', 1092.99),
+  );
   contentBody.appendChild(createMenuCard('Food Item E', 1.99));
   contentBody.appendChild(createMenuCard('Drink M', 0.99));
 

@@ -10,8 +10,20 @@ function ContactPage() {
   subTitle.classList.add('content-subtitle');
   contentBody.appendChild(subTitle);
 
-  contentBody.appendChild(createContactCard('324 A Road St., ABC ABC, CITY, PROVINCE', '+1-(XXX)-XXX-XXXX', 'AnyEmail@email.com'));
-  contentBody.appendChild(createContactCard('3 Street St., AAC CCC, CITY, PROVINCE', '+1-(XXX)-XXX-XXXX', 'AnyEmail231@email.com'));
+  contentBody.appendChild(
+    createContactCard(
+      '324 A Road St., ABC ABC, CITY, PROVINCE',
+      '+1-(XXX)-XXX-XXXX',
+      'AnyEmail@email.com',
+    ),
+  );
+  contentBody.appendChild(
+    createContactCard(
+      '3 Street St., AAC CCC, CITY, PROVINCE',
+      '+1-(XXX)-XXX-XXXX',
+      'AnyEmail231@email.com',
+    ),
+  );
 
   return { contactContent };
 }

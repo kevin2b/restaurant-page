@@ -1,4 +1,4 @@
-:root{
+:root {
   --secondary-color: orange;
   box-sizing: border-box;
   background-color: black;
@@ -9,17 +9,16 @@
 
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: inherit;
 }
 
-body{
+body {
   min-width: 1000px;
   overflow-y: scroll;
 }
 
-
-.nav{
+.nav {
   display: flex;
   justify-content: center;
   min-height: 4rem;
@@ -27,7 +26,7 @@ body{
   align-items: flex-end;
 }
 
-.nav-element{
+.nav-element {
   border: 1px solid black;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -41,17 +40,17 @@ body{
   background-color: #373431;
 }
 
-.nav-element.selected{
+.nav-element.selected {
   border-color: var(--secondary-color);
 }
 
-.content-wrapper{
-  display:flex;
+.content-wrapper {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.content-body{
+.content-body {
   max-width: 80%;
   min-width: 80%;
   border: 1px solid var(--secondary-color);
@@ -60,13 +59,13 @@ body{
   padding: 20px 50px 50px;
 }
 
-.content-title{
+.content-title {
   font-size: 3rem;
   text-align: center;
   font-weight: 700;
 }
 
-.content-subtitle{
+.content-subtitle {
   font-size: 1.5rem;
   text-align: center;
   margin: 10px 0;
@@ -79,12 +78,12 @@ body{
   gap: 10px;
 }
 
-.content-card-left{
+.content-card-left {
   flex: 1;
   padding: 10px;
 }
 
-.home-card > .content-card-left{
+.home-card > .content-card-left {
   text-align: center;
 }
 
@@ -97,15 +96,10 @@ body{
   text-align: center;
 }
 
-.menu-card-price{
+.menu-card-price {
   float: right;
 }
 
-.contact-card > .content-card-left > div{
+.contact-card > .content-card-left > div {
   margin-top: 0.5rem;
 }
-
-
-
-
-
